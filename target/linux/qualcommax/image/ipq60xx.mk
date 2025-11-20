@@ -353,7 +353,7 @@ define Device/jdcloud_re-ss-01
 	$(call Device/FitImage)
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := JDCloud
-	DEVICE_MODEL := RE-SS-01
+	DEVICE_MODEL := AX1800 Pro
 	KERNEL_SIZE := 6144k
 	BLOCKSIZE := 128k
 	SOC := ipq6000
@@ -367,7 +367,7 @@ define Device/jdcloud_re-cs-02
 	$(call Device/FitImage)
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := JDCloud
-	DEVICE_MODEL := RE-CS-02
+	DEVICE_MODEL := AX6600
 	KERNEL_SIZE := 6144k
 	BLOCKSIZE := 128k
 	SOC := ipq6010
