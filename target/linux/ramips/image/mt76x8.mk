@@ -836,6 +836,8 @@ define Device/tplink_archer-c50-v6
   IMAGE_SIZE := 7616k
   DEVICE_MODEL := Archer C50
   DEVICE_VARIANT := v6 (CA/EU/RU)
+  DEVICE_ALT0_MODEL := Archer A5
+  DEVICE_ALT0_VARIANT := v6 (CA/EU/RU)
   TPLINK_FLASHLAYOUT := 8MSUmtk
   TPLINK_HWID := 0x0C500006
   TPLINK_HWREVADD := 0x6
@@ -1386,7 +1388,7 @@ TARGET_DEVICES += xiaomi_miwifi-nano
 define Device/xiaomi_mi-ra75
   IMAGE_SIZE := 14976k
   DEVICE_VENDOR := Xiaomi
-  DEVICE_MODEL := MiWiFi Range Extender AC1200 
+  DEVICE_MODEL := MiWiFi Range Extender AC1200
   DEVICE_VARIANT := RA75
   DEVICE_PACKAGES := kmod-mt76x2
   SUPPORTED_DEVICES += xiaomi,mira75
